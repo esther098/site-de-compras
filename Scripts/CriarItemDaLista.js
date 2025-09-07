@@ -76,7 +76,7 @@ export function criarItemDaLista() {
 
       const iconeEditar= document.createElement("i");
       iconeEditar.className = "bi bi-pen";
-     botao.style.cursor="pointer";
+     botao2.style.cursor="pointer";
       containerItemDaLista.appendChild(botao2);
       botao2.appendChild(iconeEditar)
        botao2.addEventListener("click", function(){
@@ -119,5 +119,6 @@ export function criarItemDaLista() {
     // Retorna o <li> completo, que já contém o item digitado, pronto para ser adicionado na lista.
     return itemDaLista;
 }
+
 
 
