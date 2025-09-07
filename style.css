@@ -113,6 +113,16 @@ form {
   font-size: 1.2rem;
 }
 
+.botao-editar {
+    position: absolute;
+    right: 50px;
+    background: transparent;
+    border: none;
+    color: #40a75a;
+    font-size: 1.2rem;
+  }
+
+
 x ul {
     list-style-type: none;
 }
@@ -166,6 +176,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
