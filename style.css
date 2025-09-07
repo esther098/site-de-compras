@@ -54,7 +54,7 @@ hr {
 }
 .carrinho {
     width: 600px;
-    height: auto;
+    height: 300px;
 }
 
 p {
@@ -180,4 +180,5 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
