@@ -56,9 +56,10 @@ hr {
 }
 
 .carrinho {
-    width: 550px;
-    height: 200px;
+    width: 430px;
+    height: auto;
 }
+
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
@@ -121,7 +122,7 @@ form {
   right: 70px;
   background: transparent;
   border: none;
-  color: d60000;
+  color: red;
   font-size: 1.3rem;
 }
 
@@ -188,6 +189,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
