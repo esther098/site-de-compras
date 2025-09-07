@@ -52,6 +52,10 @@ hr {
     border-bottom: 3px dotted var(--cor-primaria);
     margin-bottom: 24px;
 }
+.carrinho {
+    width: 170px;
+    height: auto;
+}
 
 p {
     font-family: var(--fonte-texto);
@@ -176,6 +180,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
