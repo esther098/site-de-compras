@@ -71,13 +71,12 @@ p {
 
 .input-item {
     display: block;
-    padding: 9px 16px;
+    padding: 12px 16px;
     border-radius: 24px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 1px solid var(--preto);
     width: 307px;
-    background-color: #f293dd;
 
-  font-family: var(--fonte-texto);
+    font-family: var(--fonte-texto);
 }
     
 .input-item::placeholder {
@@ -189,6 +188,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
