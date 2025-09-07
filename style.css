@@ -7,7 +7,7 @@
 :root {
     --cor-primaria: #f55bd4;
     --cor-secundaria: #AEA5FF;
-    --neutro: #3dd5ff;
+    --neutro: #hwb(57 68% 7%);;
     --preto: #131730;
     --fonte-titulo: "Krona One", sans-serif;
     --fonte-texto: 'Numans', sans-serif;
@@ -180,5 +180,6 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
