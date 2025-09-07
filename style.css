@@ -112,11 +112,10 @@ form {
   position: relative;
   display: flex;
   align-items: center;
-  padding-right: 100px; /* Aumentado */
+  padding-right: 40px; /* espaço reservado para o botão */
   gap: 8px;
 }
 
-}
 
 .botao-excluir {
   position: absolute;
@@ -148,6 +147,7 @@ li {
 .input-checkbox {
     display: none;
 }
+
 
 .checkbox-customizado {
     width: 40px;
@@ -190,6 +190,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
