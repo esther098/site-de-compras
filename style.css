@@ -32,8 +32,8 @@ main {
     flex-direction: column;
     gap: 24px;
 
-    width: 420px;
-    padding: 56px;
+    width: 320px;
+    padding: 50px;
 
     align-items: center;
     border-radius: 16px;
@@ -180,6 +180,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
