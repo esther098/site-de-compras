@@ -70,9 +70,41 @@ export function criarItemDaLista() {
             alert("item deletado");
             verificarListaVazia(listaDeCompras);
         }
-    }
+    } );
+ const botao2=document.createElement("button")
+      botao.classList.add("botao-editar")
 
-    );
+      const iconeEditar= document.createElement("i");
+      iconeEditar.className = "bi bi-pen";
+     botao.style.cursor="pointer";
+      containerItemDaLista.appendChild(botao2);
+      botao2.appendChild(iconeEditar)
+       botao2.addEventListener("click", function(){
+        const inputEdicao = document.createElement("input");
+  inputEdicao.type = "text";
+  inputEdicao.value = nomeItem.innerText;
+  inputEdicao.classList.add("input-edicao");
+  // Substitui o <p> pelo input
+  containerItemDaLista.replaceChild(inputEdicao, nomeItem);
+  inputEdicao.focus();
+  function salvarEdicao() {
+    if (inputEdicao.value.trim() === "") {
+      alert("O item não pode ficar vazio!");
+      inputEdicao.focus();
+      return;
+    }
+    nomeItem.innerText = inputEdicao.value;
+    containerItemDaLista.replaceChild(nomeItem, inputEdicao);
+  }
+  // Salvar ao perder o foco
+  
+  inputEdicao.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      salvarEdicao();
+    }
+  });
+});
+
     // Adiciona o <p> com o nome do item dentro da <div> (o container).
     containerItemDaLista.appendChild(nomeItem);
 
@@ -87,4 +119,5 @@ export function criarItemDaLista() {
     // Retorna o <li> completo, que já contém o item digitado, pronto para ser adicionado na lista.
     return itemDaLista;
 }
+
 
