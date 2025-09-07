@@ -106,7 +106,7 @@ form {
 
 .botao-excluir {
   position: absolute;
-  right: 90px;
+  right: 65px;
   background: transparent;
   border: none;
   color: #DD99E6;
@@ -176,6 +176,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
