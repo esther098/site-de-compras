@@ -5,7 +5,7 @@
 }
 
 :root {
-    --cor-primaria: #dfae28;
+    --cor-primaria: #f55bd4;
     --cor-secundaria: #AEA5FF;
     --neutro: #3dd5ff;
     --preto: #131730;
@@ -180,6 +180,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
