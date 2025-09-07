@@ -56,8 +56,8 @@ hr {
 }
 
 .carrinho {
-    width: 430px;
-    height: auto;
+    width: 550px;
+    height: 200px;
 }
 
 p {
@@ -121,8 +121,8 @@ form {
   right: 70px;
   background: transparent;
   border: none;
-  color: #ee9b00;
-  font-size: 1.2rem;
+  color: d60000;
+  font-size: 1.3rem;
 }
 
 .botao-editar {
@@ -130,8 +130,8 @@ form {
     right: 50px;
     background: transparent;
     border: none;
-    color: #40a75a;
-    font-size: 1.2rem;
+    color: #000f99;
+    font-size: 1.3rem;
   }
 
 
@@ -188,6 +188,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
