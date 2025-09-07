@@ -72,7 +72,7 @@ export function criarItemDaLista() {
         }
     } );
  const botao2=document.createElement("button")
-      botao.classList.add("botao-editar")
+      botao2.classList.add("botao-editar")
 
       const iconeEditar= document.createElement("i");
       iconeEditar.className = "bi bi-pen";
@@ -119,6 +119,7 @@ export function criarItemDaLista() {
     // Retorna o <li> completo, que já contém o item digitado, pronto para ser adicionado na lista.
     return itemDaLista;
 }
+
 
 
 
