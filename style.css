@@ -118,7 +118,7 @@ form {
 
 .botao-excluir {
   position: absolute;
-  right: 50px;
+  right: 30px;
   background: transparent;
   border: none;
   color: red;
@@ -127,7 +127,7 @@ form {
 
 .botao-editar {
     position: absolute;
-    right: 30px;
+    right: 10px;
     background: transparent;
     border: none;
     color: #000f99;
@@ -188,6 +188,7 @@ li {
 .container-lista {
     width: 100%;
 }
+
 
 
 
